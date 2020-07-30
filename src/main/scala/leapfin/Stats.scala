@@ -1,4 +1,4 @@
-package finleap
+package leapfin
 
 import scala.collection.mutable.ListBuffer
 

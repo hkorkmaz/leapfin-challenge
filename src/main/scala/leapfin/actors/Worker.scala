@@ -1,9 +1,9 @@
-package finleap.actors
+package leapfin.actors
 
 import akka.actor.{Actor, ActorLogging, ActorRef, Cancellable, PoisonPill, Props}
-import finleap.actors.Parent.SaveStats
-import finleap.actors.Worker.{Start, Stop, Tick}
-import finleap.{DataStream, Stats, WorkerStatus}
+import leapfin.actors.Parent.SaveStats
+import leapfin.actors.Worker.{Start, Stop, Tick}
+import leapfin.{DataStream, Stats, WorkerStatus}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration.{DurationDouble, FiniteDuration}

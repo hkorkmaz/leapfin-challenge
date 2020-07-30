@@ -1,4 +1,4 @@
-package finleap
+package leapfin
 
 import org.scalatest.{Matchers, WordSpec}
 

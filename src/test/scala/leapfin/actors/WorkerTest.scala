@@ -1,10 +1,10 @@
-package finleap.actors
+package leapfin.actors
 
 import akka.actor.ActorSystem
 import akka.testkit.{TestKit, TestProbe}
-import finleap.actors.Parent.SaveStats
-import finleap.actors.Worker.Start
-import finleap.{DataStream, Stats, WorkerStatus}
+import leapfin.actors.Parent.SaveStats
+import leapfin.actors.Worker.Start
+import leapfin.{DataStream, Stats, WorkerStatus}
 import org.scalatest.{BeforeAndAfterAll, WordSpecLike}
 
 import scala.concurrent.duration.DurationDouble

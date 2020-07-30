@@ -1,9 +1,9 @@
-package finleap.actors
+package leapfin.actors
 
 import akka.actor.{ActorSystem, PoisonPill}
 import akka.testkit.{DefaultTimeout, ImplicitSender, TestActorRef, TestKit, TestProbe}
-import finleap.actors.Parent.{GetStats, SaveStats, Start}
-import finleap.{PseudoRandomStream, Stats, WorkerStatus}
+import leapfin.actors.Parent.{GetStats, SaveStats, Start}
+import leapfin.{PseudoRandomStream, Stats, WorkerStatus}
 import org.scalatest.{BeforeAndAfterAll, Matchers, WordSpecLike}
 
 import scala.collection.mutable.ListBuffer

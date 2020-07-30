@@ -1,4 +1,4 @@
-package finleap
+package leapfin
 
 sealed trait WorkerStatus
 

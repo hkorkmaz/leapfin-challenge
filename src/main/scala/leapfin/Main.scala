@@ -1,11 +1,11 @@
-package finleap
+package leapfin
 
 import java.util.concurrent.TimeUnit
 
 import akka.actor.ActorSystem
 import com.typesafe.config.ConfigFactory
-import finleap.actors.Parent
-import finleap.actors.Parent.Start
+import leapfin.actors.Parent
+import leapfin.actors.Parent.Start
 
 import scala.concurrent.duration.FiniteDuration
 

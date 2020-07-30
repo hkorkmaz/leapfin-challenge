@@ -34,4 +34,4 @@ if [[ -z "$NUMBER_OF_WORKERS" ]]; then usage "Number of workers is not set"; fi;
 if [[ -z "$TIMEOUT" ]]; then usage "Timeout is not set."; fi;
 if [[ -z "$LOG_LEVEL" ]]; then usage "Log level is not set."; fi;
 
-java -Dworker.count=${NUMBER_OF_WORKERS} -Dworker.timeout=${TIMEOUT} -Dlog.level=${LOG_LEVEL} -jar dist/finleap.jar
+java -Dworker.count=${NUMBER_OF_WORKERS} -Dworker.timeout=${TIMEOUT} -Dlog.level=${LOG_LEVEL} -jar dist/leapfin.jar

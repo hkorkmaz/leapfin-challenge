@@ -1,8 +1,8 @@
-package finleap.actors
+package leapfin.actors
 
 import akka.actor.{Actor, ActorLogging, ActorRef, PoisonPill, Props, Terminated}
-import finleap.actors.Parent.{GetStats, SaveStats, Start}
-import finleap.{DataStream, Stats}
+import leapfin.actors.Parent.{GetStats, SaveStats, Start}
+import leapfin.{DataStream, Stats}
 
 import scala.collection.mutable
 import scala.concurrent.duration.FiniteDuration

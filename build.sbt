@@ -16,6 +16,6 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 )
 
-assemblyJarName in assembly := "finleap.jar"
+assemblyJarName in assembly := "leapfin.jar"
 target in assembly := new File("dist")
-mainClass in assembly := Some("finleap.Main")
+mainClass in assembly := Some("leapfin.Main")
